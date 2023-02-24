@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.hello{
+  color: white;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  background-color: #fddb3a;
+}
+.container{
+  padding: 20px;
+  width: 60%;
+  height: fit-content;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
